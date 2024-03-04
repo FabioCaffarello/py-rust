@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "py-rust"
+version = "0.1.0"
+description = ""
+authors = [ "FabioCaffarello <fabio.caffarello@gmail.com>" ]
+
+    [tool.poetry.dependencies]
+    python = "^3.10"
+
+[build-system]
+requires = ["maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "py-rust"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
