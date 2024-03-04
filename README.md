@@ -12,13 +12,7 @@ To run this benchmark on your local machine, you need to have the following inst
 
 - Python 3.8 or higher
 - Rust and Cargo (See [Rust's installation guide](https://www.rust-lang.org/tools/install))
-- `maturin` for building and publishing Rust-based Python packages (Install via Cargo with `cargo install maturin`)
-
-Additionally, ensure all Python dependencies are installed by running:
-
-```bash
-pip install -r requirements.txt
-```
+- `maturin` for building and publishing Rust-based Python packages (Install via pip with `pip install maturin`)
 
 ## Installation
 
