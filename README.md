@@ -10,7 +10,7 @@ The primary objective of this benchmark is to showcase the potential performance
 
 To run this benchmark on your local machine, you need to have the following installed:
 
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Rust and Cargo (See [Rust's installation guide](https://www.rust-lang.org/tools/install))
 - `maturin` for building and publishing Rust-based Python packages (Install via pip with `pip install maturin`)
 
